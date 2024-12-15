@@ -1,0 +1,27 @@
+table {
+    margin: 40px auto;
+    border: 1px solid #cfcfcf; /* Lighter gray border */
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+
+  th, td {
+    border: 1px solid #cfcfcf; 
+    padding: 15px;
+    text-align: center;
+    font-size: 16px; 
+  }
+
+  th {
+    background-color: #f5e0e6; /* Light pink header background */
+    color: #663366; /* Dark pink header text */
+    font-weight: bold;
+  }
+
+  tr:hover {
+    background-color: #f9f0f5; /* Slightly darker pink on hover */
+  }
+
